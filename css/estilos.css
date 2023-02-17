@@ -30,9 +30,9 @@ header {
     height: 600px;
     background: #bc4e9c;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, hsla(340, 95%, 50%, 0.459), hsla(317, 45%, 52%, 0.664)), url(../img/portada.jpg);
+    background: -webkit-linear-gradient(to right, hsla(340, 95%, 50%, 0), hsla(317, 45%, 52%, 0)), url(../img/portada.webp);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, hsla(340, 95%, 50%, 0.459), hsla(317, 45%, 52%, 0.664)), url(../img/portada.jpg);
+    background: linear-gradient(to right, hsla(340, 95%, 50%, 0), hsla(317, 45%, 52%, 0)), url(../img/portada.webp);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
     background-attachment: fixed;
@@ -188,8 +188,8 @@ main .sobre-nosotros{
 .cards .card{
     background: #4d0686;
     display: flex;
-    width: 46%;
-    height: 200px;
+    width: 45%;
+    height: 300px;
     align-items: center;
     justify-content: space-evenly;
     border-radius: 5px;
@@ -197,16 +197,17 @@ main .sobre-nosotros{
 }
 
 .cards .card img{
-    width: 100px;
-    height: 100px;
+    width: 300px;
+    height: 300px;
     object-fit: cover;
-    border: 3px solid #fff;
-    border-radius: 50%;
+    border: 0px solid #fff;
+    border-radius: 0%;
     display: block;
 }
 
 .cards .card > .contenido-texto-card{
     width: 60%;
+    padding-left: 20px;
     color: #fff;
 }
 
